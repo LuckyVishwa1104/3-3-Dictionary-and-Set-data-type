@@ -1,4 +1,4 @@
-#2]. Accessing values of dictionary - by using key we can access the value of dict.   there are two ways to access dict. value.
+#2]. Accessing values of dictionary - by using key we can access the value of dict, there are two ways to access dictionary value.
 dict={1:2,"o":"vowel","ceo":"54.8 cr ¥"}
 print(dict[1])
 print(dict["o"])
@@ -17,7 +17,7 @@ print(b,dict1["o"])
 # it return key error when key is not in dict.  print(dict1["z"])
 print(dict[1]*45,dict1["r"])
 
-#2). get("key") - able to access value at particular key.
+#2). get("key") - able to access value at particular key, it is nore prefered over above method because it handels the key not found error.
 #Syntax:   dict_name.get("key","prompt")
 print("2). Using get(key):")
 v,n=5.5,-8
