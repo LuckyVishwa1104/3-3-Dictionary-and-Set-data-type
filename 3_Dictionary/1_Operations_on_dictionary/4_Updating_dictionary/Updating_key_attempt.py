@@ -1,5 +1,5 @@
 # Changing keys of dictionary :
-''' Since keys are unique and immutable they can't be modified, but indirectly using different merhods it can be modified. '''
+''' Since keys are unique and immutable they can't be modified, but indirectly using different methods it can be modified. '''
 
 #1). Using del() function : Assiging key value to new key and deleting previous key
 print("Using del() function :")
