@@ -9,6 +9,7 @@ print(set1.difference(set2))
 print(set2.difference(set3))
 print(set1 - set2)
 print(set2 - set3)
+
 # assigning to variable
 set4={10,"o","u",88,0.9 }
 a=set2.difference(set4) 
@@ -18,7 +19,8 @@ print(b)
 c=set4 - set2
 print(c)   
 d=set3 - set2 - set1
-print(d) 
+print(d)
+ 
 # using set as argument
 print({1,2}.difference({2,4}))  
 print({""} -{""})

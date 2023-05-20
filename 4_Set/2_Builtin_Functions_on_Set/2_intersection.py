@@ -8,8 +8,10 @@ set3={0b101,0o45,"o","u"}
 print(set1.intersection(set2))
 print(set2.intersection(set3))
 print(set2 & set2)
-# if on element are common it return empty set.
+
+# if on elements are common it return empty set.
 print(set1 & set3)
+
 # assigning to variable
 set4={10,"o","u",88,0.9 }
 a=set2.intersection(set4)
@@ -20,6 +22,7 @@ c=set2 & set4
 print(c)
 d=set4 & set3 & c
 print(d)
+
 # using set as argument
 print({2,3,4}.intersection({3,4,5}))
 print({2,3,4} & {3,4,5})

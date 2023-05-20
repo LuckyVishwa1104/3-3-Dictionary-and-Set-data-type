@@ -12,6 +12,7 @@ print(set1.union(set3))
 print(set1 | set2)
 print(set1 | set2 | set3)
 print(set1.union(set2.union(set3)))
+
 # assigning to variable
 a=set2.union(set3)
 print(a)
@@ -19,6 +20,7 @@ set4={"@","#","$","&"}
 b=set1 | set4
 print(b)
 print(a | b)
+
 # using set as argument 
 print({2,4,6,8,10}.union({"a","e","i","o","u"}))
 print({1,2} | {3,4})
