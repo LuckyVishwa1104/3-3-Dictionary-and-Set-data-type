@@ -9,7 +9,7 @@ print(dict4)
 print(dict({1:"one1",2:"two",3:"three"}))
 
 #b). using keyargs - i.e. key arguments , variable along with their value are considered as key:value pair.
-# Syntax:   dict(var1=val1,var2=val2,....,                                     varn=valn)
+# Syntax:   dict(var1=val1,var2=val2,...., varn=valn)
 # keys should be undeclared variables only
 dict1=dict(x=2, y=4, z=6)
 print(dict1)

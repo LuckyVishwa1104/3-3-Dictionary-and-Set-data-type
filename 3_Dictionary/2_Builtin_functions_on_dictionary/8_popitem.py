@@ -8,9 +8,11 @@ print(dict1)
 dict2={"a":"apple","b":"ball","c":"cat"}
 print(dict2)
 print(dict2.popitem())
+
 # assigning ti variable
 a=dict2.popitem()
 b=dict2.popitem()
 print(dict2)
+
 # using dictionary as parameter.
 print({"[":"]","{":"}","(":")"}.popitem())
