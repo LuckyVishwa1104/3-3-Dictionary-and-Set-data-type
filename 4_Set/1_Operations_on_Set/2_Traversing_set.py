@@ -42,3 +42,5 @@ for c in enumerate({"a","e","i","o","u","s","q"}):
 for d in enumerate({2,4,6,8,10,0b100}):
 	print(d)
 print("Finished")
+
+# we can't use while for traversal as it is Not subsrcriptable

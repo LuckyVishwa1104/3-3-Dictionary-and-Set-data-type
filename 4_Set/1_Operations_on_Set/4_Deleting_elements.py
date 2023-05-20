@@ -2,7 +2,7 @@
 
 #1). Using discard() method - it removes the specified elements.
 #Syntax :  set_name.discard(element)
-print("1). Using discard() metho :")
+print("1). Using discard() method :")
 set3={"Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday" }
 print(set3)
 set3.discard("Monday")
